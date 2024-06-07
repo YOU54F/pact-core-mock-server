@@ -348,17 +348,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "cfb"
-version = "0.7.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d38f2da7a0a2c4ccf0065be06397cc26a81f4e528be095826eee9d4adbb8c60f"
-dependencies = [
- "byteorder",
- "fnv",
- "uuid",
-]
-
-[[package]]
 name = "cfg-if"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1201,15 +1190,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "infer"
-version = "0.15.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "cb33622da908807a06f9513c19b3c1ad50fab3e4137d82a78107d502075aa199"
-dependencies = [
- "cfb",
-]
-
-[[package]]
 name = "inout"
 version = "0.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1611,9 +1591,7 @@ checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 
 [[package]]
 name = "pact-plugin-driver"
-version = "0.6.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "dafb1371bf02e0fa25212061d41cc5cbc4ad1116d1e988a86eede5e5bb338931"
+version = "0.6.2"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1654,8 +1632,6 @@ dependencies = [
 [[package]]
 name = "pact_matching"
 version = "1.2.3"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ddd60651cf03381d1834353687140ab2f0756b5a7c15a1860d1831fee3380dba"
 dependencies = [
  "ansi_term",
  "anyhow",
@@ -1666,7 +1642,6 @@ dependencies = [
  "futures",
  "hex",
  "http 1.1.0",
- "infer",
  "itertools 0.12.1",
  "lazy_static",
  "lenient_semver",
@@ -1764,9 +1739,7 @@ dependencies = [
 
 [[package]]
 name = "pact_models"
-version = "1.2.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "bf3bf784d5fc22d0332041fa8f9dd9992e0ce2b22236462847ca1b1377297e10"
+version = "1.2.1"
 dependencies = [
  "anyhow",
  "ariadne",
