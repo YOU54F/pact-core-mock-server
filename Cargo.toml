@@ -6,3 +6,6 @@ resolver = "2"
 
 [patch.crates-io]
 onig = { git = "https://github.com/rust-onig/rust-onig", default-features = false }
+pact_models = { git = 'https://github.com/you54f/pact-reference.git', branch = "fix_logging" }
+pact_matching = { git = 'https://github.com/you54f/pact-reference.git', branch = "fix_logging" }
+pact-plugin-driver = { git = 'https://github.com/you54f/pact-plugins.git', branch = "fix/logging_min" }
