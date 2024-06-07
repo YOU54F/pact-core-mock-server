@@ -30,9 +30,9 @@ hyper-rustls = { version = "0.24.2", optional = true }
 itertools = "0.12.1"
 lazy_static = "1.4.0"
 maplit = "1.0.2"
-pact_matching = { version =  "=1.2.3", default-features = false, path="../../pact-reference/rust/pact_matching"  }
-pact_models = { version = "=1.2.1", default-features = false, path="../../pact-reference/rust/pact_models" }
-pact-plugin-driver = { version = "=0.6.2", optional = true, default-features = false, path="../../pact-plugins/drivers/rust/driver" }
+pact_matching = { version = "~1.2.4", default-features = false, path="../../pact-reference/rust/pact_matching"  }
+pact_models = { version = "~1.2.1", default-features = false, path="../../pact-reference/rust/pact_models" }
+pact-plugin-driver = { version = "~0.6.2", optional = true, default-features = false, path="../../pact-plugins/drivers/rust/driver" }
 rustls = { version = "~0.21.10", optional = true }
 rustls-pemfile = { version = "1.0.4", optional = true }
 serde = { version = "1.0.197", features = ["derive"] }
