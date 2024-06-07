@@ -1612,46 +1612,6 @@ checksum = "b15813163c1d831bf4a13c3610c05c0d03b39feb07f7e09fa234dac9b15aaf39"
 [[package]]
 name = "pact-plugin-driver"
 version = "0.6.2"
-dependencies = [
- "anyhow",
- "async-trait",
- "backtrace",
- "bytes",
- "chrono",
- "flate2",
- "futures-util",
- "home",
- "indicatif",
- "itertools 0.12.1",
- "lazy_static",
- "log",
- "maplit",
- "md5",
- "os_info",
- "pact_models 1.2.1 (git+https://github.com/you54f/pact-reference.git?branch=fix_logging)",
- "prost",
- "prost-types",
- "regex",
- "reqwest 0.12.4",
- "semver",
- "serde",
- "serde_json",
- "sha2",
- "sysinfo",
- "tar",
- "tokio",
- "toml",
- "tonic",
- "tonic-build",
- "tracing",
- "tracing-core",
- "uuid",
- "zip",
-]
-
-[[package]]
-name = "pact-plugin-driver"
-version = "0.6.2"
 source = "git+https://github.com/you54f/pact-plugins.git?branch=fix/logging_min#c3467b4ea688c06ea051983ba2c2f734391342c0"
 dependencies = [
  "anyhow",
@@ -1713,7 +1673,7 @@ dependencies = [
  "multer",
  "nom",
  "onig",
- "pact-plugin-driver 0.6.2 (git+https://github.com/you54f/pact-plugins.git?branch=fix/logging_min)",
+ "pact-plugin-driver",
  "pact_models 1.2.1 (git+https://github.com/you54f/pact-reference.git?branch=fix_logging)",
  "rand",
  "reqwest 0.12.4",
@@ -1753,7 +1713,7 @@ dependencies = [
  "multer",
  "nom",
  "onig",
- "pact-plugin-driver 0.6.2 (git+https://github.com/you54f/pact-plugins.git?branch=fix/logging_min)",
+ "pact-plugin-driver",
  "pact_models 1.2.1 (git+https://github.com/you54f/pact-reference.git?branch=fix_logging)",
  "rand",
  "reqwest 0.12.4",
@@ -1783,7 +1743,7 @@ dependencies = [
  "itertools 0.12.1",
  "lazy_static",
  "maplit",
- "pact-plugin-driver 0.6.2",
+ "pact-plugin-driver",
  "pact_matching 1.2.4 (git+https://github.com/you54f/pact-reference.git?branch=fix_logging)",
  "pact_models 1.2.1 (git+https://github.com/you54f/pact-reference.git?branch=fix_logging)",
  "quickcheck",
